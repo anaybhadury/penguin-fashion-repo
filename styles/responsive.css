@@ -30,6 +30,32 @@
         width: 100%;
     }
     /* banner content end */
+
+    /* woman card section start */
+    .woman-jacket-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .woman-card-container{
+        grid-template-columns: 1fr;
+    }
+    .woman-jacket-card{
+        height: 35rem;
+    }
+    /* woman card section end */
+
+    /* man card section start */
+    .man-jacket-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .man-card-container{
+        grid-template-columns: 1fr;
+    }
+    .man-jacket-card{
+        height: 35rem;
+    }
+    /* man card section end */
 }
 
 
@@ -37,6 +63,7 @@
     .banner-container{
         max-width: 100%;
         height: 32rem;
+        margin-bottom: 25px;
     }
     .hamburger-menu{
         display: none;
@@ -61,5 +88,51 @@
         width: 100%;
     }
     /* banner content end */
+
+    /* similar text edit */
+    .price-text{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        padding: 10px 15px;
+    }
+    /* woman card section start */
+    .woman-jacket-container{
+        max-width: 100%;
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    .woman-card-container{
+        gap: 8px;
+    }
+    .woman-jacket-card{
+        height: 30rem;
+    }
+    .woman-jacket-card img{
+        height: 40%;
+    }
+    .woman-jacket-container h1{
+        margin-bottom: 25px;
+    }
+    /* woman card section end */
+
+    /* man card section start */
+    .man-jacket-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .man-card-container{
+        gap: 8px;
+    }
+    .man-jacket-card{
+        height: 30rem;
+    }
+    .man-jacket-card img{
+        height: 40%;
+    }
+    .man-jacket-container h1{
+        margin-bottom: 25px;
+    }
+    /* man card section end */
 }
 
