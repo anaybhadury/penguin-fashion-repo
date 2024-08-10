@@ -56,6 +56,20 @@
         height: 35rem;
     }
     /* man card section end */
+    
+    /* footer section start */
+    .footer-content{
+        flex-direction: column-reverse;
+    }
+    .right-footer-content img{
+        width: 345px;
+        margin-bottom: 20px;
+    }
+    .footer-card{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* footer section end */
 }
 
 
@@ -134,5 +148,15 @@
         margin-bottom: 25px;
     }
     /* man card section end */
+
+    /* footer section start */
+    .footer-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .right-footer-content img {
+        width: 414px;
+    }
+    /* footer section end */
 }
 
