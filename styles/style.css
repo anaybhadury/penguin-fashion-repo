@@ -19,6 +19,9 @@
     padding: 45px 135px 0 135px;
     align-items: center;
 }
+.hamburger-menu{
+    display: none;
+}
 .left-nav-content img{
     width: 300px;
 }

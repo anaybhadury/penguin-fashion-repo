@@ -1,0 +1,34 @@
+@media screen and (max-width: 576px) {
+    .banner-container{
+        max-width: 100%;
+    }
+    .navbar-container{
+        padding: 15px;
+    }
+    .hamburger-menu{
+        display: inline-block;
+    }
+    .left-nav-content img{
+        width: 200px;
+    }
+    .right-nav-content a{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .banner-container{
+        max-width: 100%;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+    .navbar-container{
+        padding: 15px;
+    }
+    .left-nav-content img{
+        width: 250px;
+    }
+}
+
