@@ -1,5 +1,8 @@
 /* google fonts */
+/* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
     margin: 0;
@@ -7,11 +10,26 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+/* similar content */
+.btn-primary{
+    padding: 18px 28px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(180.00deg, rgb(164, 188, 70),rgb(133, 160, 25) 100%);
+    color: white;
+    font-size: 15px;
+}
+.text-primary{
+    color: rgb(250, 190, 76);
+}
+
+/* navbar section styles start */
 .banner-container{
     max-width: 90%;
     margin: 0 auto;
     border: 2px solid red;
     background-color: rgb(255, 251, 240);
+    height: 45rem;
 }
 .navbar-container{
     display: flex;
@@ -33,7 +51,39 @@
     color: black;
     margin-left: 20px;
 }
+/* navbar section styles end */
 
+/* banner section styles start */
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 190px 0 135px;
+}
+.right-banner-content img{
+    width: 500px;
+
+}
+.left-banner-content span{
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    width: 540px;
+}
+.left-banner-content h1{
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    width: 390px;
+    color: rgb(54, 57, 88);
+}
+.left-banner-content p{
+    width: 373px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(62, 62, 62);
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+/* banner section styles end */
 
 
 
