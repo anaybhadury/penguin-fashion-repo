@@ -108,6 +108,7 @@
     gap: 30px;
 }
 .woman-jacket-card{
+    height: 40rem;
     border-radius: 20px;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
     background: rgb(255, 255, 255);
@@ -115,6 +116,7 @@
 }
 .woman-jacket-card img{
     width: 100%;
+    height: 55%;
     border-radius: 20px;
     background: rgb(241, 241, 241);
     padding: 20px;
@@ -140,7 +142,57 @@
 }
 /* woman jacket section styles end */
 
-
+/* man jacket section styles start */
+.man-jacket-container{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.man-jacket-container h1{
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    color: rgb(54, 57, 88);
+    margin-bottom: 50px;
+}
+.man-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.man-jacket-card{
+    height: 40rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+.man-jacket-card img{
+    width: 100%;
+    height: 55%;
+    border-radius: 20px;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+}
+.man-jacket-card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(54, 57, 88);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.man-jacket-card p{
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: rgb(62, 62, 62);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.man-jacket-card > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* man jacket section styles end */
 
 
 
