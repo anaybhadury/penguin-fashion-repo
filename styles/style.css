@@ -18,18 +18,24 @@
     background: linear-gradient(180.00deg, rgb(164, 188, 70),rgb(133, 160, 25) 100%);
     color: white;
     font-size: 15px;
+    cursor: pointer;
 }
 .text-primary{
     color: rgb(250, 190, 76);
+}
+.price-text{
+    color: rgb(250, 190, 76);
+    font-size: 2.2rem;
+    font-weight: 600;
 }
 
 /* navbar section styles start */
 .banner-container{
     max-width: 90%;
     margin: 0 auto;
-    border: 2px solid red;
     background-color: rgb(255, 251, 240);
     height: 45rem;
+    margin-bottom: 70px;
 }
 .navbar-container{
     display: flex;
@@ -84,7 +90,55 @@
 }
 /* banner section styles end */
 
-
+/* woman jacket section styles start */
+.woman-jacket-container{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.woman-jacket-container h1{
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    color: rgb(54, 57, 88);
+    margin-bottom: 50px;
+}
+.woman-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.woman-jacket-card{
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+.woman-jacket-card img{
+    width: 100%;
+    border-radius: 20px;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+}
+.woman-jacket-card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(54, 57, 88);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.woman-jacket-card p{
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: rgb(62, 62, 62);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.woman-jacket-card > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* woman jacket section styles end */
 
 
 
